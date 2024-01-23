@@ -1,0 +1,46 @@
+<link href="style.css" rel="stylesheet" type="text/css" />
+
+<html>
+  <head>
+    
+    <script src="https://misterbrash.github.io/Hangman_DB/hangman_helper.js" defer></script>
+     <script src="script.js" defer></script>
+
+
+
+    
+    
+  </head>
+  <body style= "background-color: white;">
+  <h2>HangMan</h2>
+  <h3> Category: NHL Teams</h3>
+  <div class= "Background_color">
+  <div id="image">
+  <img src= "images/photo.png" id = "hangman_frame" width = "400px" <br>
+  </div>
+    
+    <div class= "Begin_button">
+     <button onclick=start() id= "button_begin">Press Start</button> 
+    </div>
+    <div id="underline">
+      </div>
+      <p id="enter_letter"  hidden> Enter Letter</p> 
+      <input type="text" name="guesses" id="guesses" hidden style="text-transform: lowercase;"> <br> <br>
+
+    <div class= "Final_guess">
+     <button onclick= guess() id="final_guess"> Final Guess </button> </a> <br> <br>
+    </div>
+    
+    <div class= "Home_Button">
+    <a href="index.html">
+       <button id="home_screen">Main Menu</button> </a> <br> <br>
+      </div>
+    
+    <div class= "Restart">
+      <a href="game.html">
+         <button id="restart"> Restart </button> </a> <br> <br>
+        </div>
+    
+    </div>
+  </body>
+</html>

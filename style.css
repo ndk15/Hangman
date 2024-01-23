@@ -1,0 +1,66 @@
+html, body {
+  height: 100%;
+  width: 100%;
+}
+h1{
+  text-align: center;
+  font-size: 4pc;
+}
+h2{
+  color: black;
+  text-align: center;
+  font-size: 60px;
+}
+  h3{
+    color: grey;
+    text-align: center;
+    font-size: 40px;
+  }
+p{
+  text-align:center;
+  font-size: 2pc;
+}
+#new_game{
+  font-size: 25px;
+  background-color: white;
+}
+#game_instructions{
+  font-size: 25px;
+  background-color: white;
+}
+
+.Button_1{
+  text-align: center;
+}
+#home_button{
+  font-size: 25px;
+  background-color: white;
+}
+
+.Background_color{
+  text-align: center;
+}
+
+#button_begin{
+  font-size: 25px;
+  background-color: white;
+}
+#underline{
+  letter-spacing: 2px;
+  font-size: 30px;
+}
+
+#home_screen{
+  font-size: 15px;
+  background-color: white;
+}
+
+#final_guess{
+  font-size: 15px;
+  background-color: white;
+}
+
+#restart{
+  font-size: 15px;
+  background-color: white;
+}
